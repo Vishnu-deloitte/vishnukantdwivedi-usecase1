@@ -1,0 +1,28 @@
+# Secrets — never commit
+.env
+
+# Generated pipeline artefacts (keep directory stubs via .gitkeep)
+data/bronze/*.parquet
+data/silver/*.parquet
+data/gold/*.parquet
+data/sttm/*.csv
+data/profiles/*.json
+data/reports/*.html
+data/reports/*.json
+data/traces/*.json
+data/memory_store.json
+data/uploads/
+
+# Audit logs
+audit_logs/*.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
