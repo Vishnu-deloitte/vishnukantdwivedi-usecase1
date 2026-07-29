@@ -23,6 +23,13 @@ __pycache__/
 .venv/
 venv/
 
+# Large media files
+Demo Video/
+Usecase video/
+*.mp4
+*.mov
+*.avi
+
 # OS
 .DS_Store
 Thumbs.db
